@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+scikit-optimize
+bayesian-optimization
+matplotlib
+fastdataing
+tqdm
+joblib

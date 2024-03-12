@@ -16,7 +16,20 @@ def removing_duplicates(df):
 	df = df[~duplicate_mask]
 	return df
 
+def feature_selection(df_new,df_mgbr2):
+	select_columns = ['Na⁺','K⁺', 'NH₄⁺', 'Zn⁺', 'Ca⁺⁺', 
+	             'Mg⁺⁺', 'Cl⁻', 'Br⁻', 'I⁻', 'HCOO⁻',
+	             'CO₃⁻⁻', 'SO₄⁻⁻', 'P (MPa)','T (K)']
+	df_new = df_new[select_columns]
+	df_mgbr2 = df_mgbr2[select_columns]
 
+	X = df_new[select_columns[:-1]]
+	y = df_new[select_columns[-1]]
+
+	X_mgbr2 = df_mgbr2[select_columns[:-1]]
+	y_mgbr2 = df_mgbr2[select_columns[-1]]
+
+	return X, y, X_mgbr2, y_mgbr2
 
 if __name__ == '__main__':
 	f = "./data/1-s2.0-S1364032122009844-mmc1.xlsx"
