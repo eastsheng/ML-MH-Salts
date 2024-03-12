@@ -1,4 +1,5 @@
-# ML-MH-Salts
-A Machine Learning Paper Reproduction on Predicting the Equilibrium Temperature of Methane Hydrate in Pure and Saline Water
+# Journal Paper Reproduction 
 
-> *Renewable and Sustainable Energy Reviews 173 (2023) 113103*
+This repository contains scripts, data, and resources aimed at helping researchers and enthusiasts reproduce the results presented in academic journal papers. 
+
+> Categories for reproducing papers include machine learning, molecular dynamics, and others.
