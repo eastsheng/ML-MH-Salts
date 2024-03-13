@@ -3,4 +3,4 @@ Machine learning models for fast selection of amino acids as green thermodynamic
 
 > *Journal of Molecular Liquids 370 (2023) 120952*
 
-![](./amino_acid_DNN.png)
+![](./imgs/MLP.png)
